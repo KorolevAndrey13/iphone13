@@ -1,0 +1,480 @@
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #1b1b1b;
+}
+h1{
+    color: #262525;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+}
+.h2white{
+    color: white;
+}
+/*белый заголовок*/
+
+h3{
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+span{
+    color: yellow;
+}
+/*желтая PRO*/
+img{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.img4{
+    position: absolute;
+    top: 200px;
+    left: 239px;
+}
+/*4 айфона*/
+.drop{
+    position: absolute;
+    width: 400px;
+    top: -13px;
+    left: 557px;
+}
+/*капля на названии*/
+.video{
+    position: relative;
+}
+.imgvideo{
+    position: absolute;
+    left: 198px;
+    top: -353px;
+}
+/*стили киртинки видео*/
+.imgwaves{
+    margin: 0;
+    width: 1400px;
+}
+/*стили волновой картинки*/
+.imgstr{
+    margin: 0;
+    width: 1400px;
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 100px;
+}
+/*стрелка под видео*/
+.back{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: -45px;
+}
+/*стрелка влево*/
+.next{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 640px;
+}
+/*стрелка вправо*/
+.text{
+    display: block;
+    color: white;
+    text-align: center;
+}
+/*выравнивание текста*/
+
+.iphone-body{
+    width: 600px;
+    height: 250px;
+  
+    background-image: url('../resources/iPhone_13_Pro_Black_gorizont.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding-top: 97px;
+    padding-left: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 389px;
+    top: 1179px;
+}
+/*айфон на боку*/
+.waves{
+    width: 1500px;
+    margin: -0 0 0 0;
+    position: absolute;
+    top: -220px;
+    left: -339px;
+}
+/*волны*/
+.down{
+    width: 1500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*треугольник внизу под видео*/
+.iphone-body-text-wrapper{
+    color: white;
+    width: 500px;
+
+}
+
+.body {
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+ 
+    box-sizing: border-box;
+    position: relative;
+}
+/*div для документа*/
+
+.iphone-body-text-wrapper, h2, h3, p{
+    font-size: 18px;
+}
+
+.zag-h2{
+    padding-bottom: 20px;
+}
+
+.big-text{
+    color: white;
+    font-size: 80px;
+}
+/*увеличенный текст*/
+
+.pwhite{
+    color: #F5F5F5;
+    text-align: center;
+    padding-bottom: 400px;
+    width: 500px;
+    margin: 0 auto;
+}
+/*белый параграф*/
+
+.ptext{
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+
+.text-block{
+    background-color: white;
+    width: 1200px;
+    height: 210px;
+    left: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+}
+/* белый текстовый блок*/
+
+.text-block-down{
+    background-color: white;
+    width: 1200px;
+    height: 210px;
+    left: 100px;
+    top: -250px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+/*белый текстовый блок под видео*/
+.container{
+    position: relative;
+    width: 1500px;
+}
+/*контейнер для позиционирования*/
+.form{
+    position: absolute;
+    width: 350px;
+    top: 50px;
+    left: 750px;
+}
+/*форма ввода email*/
+.pform{
+    text-align: left;
+    margin-bottom: 32px;
+}
+/*начало формы почты________________________________*/
+.InputEmail{
+    width: 419px; 
+    height: 65px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    padding-left: 24px; 
+    padding-right: 8px; 
+    border-radius: 32px; 
+    border: 1.50px #C8C8C8 solid; 
+    justify-content: space-between; 
+    align-items: center; 
+    display: inline-flex
+} 
+
+.Email{
+    text-align: center; 
+    color: #545454; 
+    font-size: 14px; 
+    font-weight: 400; 
+    letter-spacing: 0.28px; 
+    word-wrap: break-word"
+
+}
+
+.BtnPrimary{
+    margin-right: 8px;
+    height: 16px; 
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    background: #262525; 
+    border-radius: 32px; 
+    justify-content: center; 
+    align-items: center;
+    display: flex"
+
+} /*конец формы______________________________________*/
+.photo{
+    position: absolute;
+}
+.strelka{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+/*стрелка к выбору айфона*/
+
+.block{
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+/*блок в */
+.blackback{
+    width: 1380px;
+    height: 400px;
+    background-color: #1b1b1b;;
+}
+/*черный фон*/
+
+.div-white{
+    background-color: white;
+    width: 1512px;
+    height: 1021px;
+}
+/*белый фон*/
+
+.white-list{
+    background-color: white;
+}
+
+.fix {
+    width: 75%;
+    height: 75%;
+    }
+/*фиксированный размер фото*/
+
+.items-list{
+    padding: 78px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+/*блок выбора айфонов*/
+
+.items-list-title{
+    margin: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    padding: 300px 0 0 0;
+
+}
+.pro{
+    color: white;
+    margin: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    padding: 0px 0 0 0;
+
+}
+
+.item{
+    display: inline-block;
+    width: 384px;
+    color: #fff;
+    margin-right: 50px;
+}
+/*плитка с выбором телефона*/
+.item:nth-last-child(2){
+    margin-right: 10px;
+}
+/*стиль последнего*/
+
+.item__image{
+    display: block;
+    width: 100%;
+    height: 418px;
+}
+/*картинка в плитке*/
+
+.item__text-wrapper{
+    padding: 24px;
+    background-color: #1b1b1b; 
+    border-radius: 0px 0px 32px 32px;
+}
+
+.item__title{ 
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+}
+
+.item__color{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.item__price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #F1F8FF;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.item__cart-btn{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer{
+    width: 1400px;
+    color: white;
+    margin: 0 auto;
+
+}
+.footer-form{
+    padding: 78px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-left{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.footer-img{
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+.footer-img:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.footer-right{
+    width: 588px;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-h3{
+    width: 160px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #EFEEEF;
+    text-align: left;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-col:nth-last-child(1){
+    width: 220px;
+}
+.footer-p{
+    font-weight: 400;
+    color: #C8C8C8;
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.footer-text{
+    font-weight: 400;
+    color: #C8C8C8;
+    font-size: 14px;
+}
+
+.Email-frame{
+    width: 220px; 
+    height: 53px; 
+    margin-top: 24px;
+    padding: 16px 24px;  
+    border-radius: 32px; 
+    border: 1.50px #C8C8C8 solid; 
+    justify-content: space-between; 
+    align-items: center; 
+    display: inline-flex;
+    background-color: #545454;
+}
+
+.Email-footer{
+    text-align: center; 
+    color: #C8C8C8; 
+    font-size: 14px; 
+    font-weight: 400; 
+    letter-spacing: 0.28px; 
+}
